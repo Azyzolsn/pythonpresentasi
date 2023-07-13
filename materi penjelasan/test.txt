@@ -1,0 +1,39 @@
+name = "John Doe"
+age = 23
+
+print("my name is " + str(name) + " I'm " + str(age) + " years old")
+# output : my name is John Doe. I'm 23 years old
+
+penjelasannya :
+
+Source code tersebut merupakan contoh sederhana dari program Python yang menampilkan informasi mengenai nama dan usia seseorang. Berikut adalah penjelasan dari setiap baris kode:
+
+name = "John Doe": Baris ini mendefinisikan variabel name dengan nilai string "John Doe", yang mewakili nama orang tersebut.
+
+age = 23: Baris ini mendefinisikan variabel age dengan nilai 23, yang mewakili usia orang tersebut.
+
+print("my name is " + str(name) + " I'm " + str(age) + " years old"): Baris ini mencetak output ke layar. Digunakanlah fungsi print() untuk mencetak teks yang terdiri dari beberapa string yang digabungkan menggunakan operator +. Fungsi str() digunakan untuk mengubah nilai name dan age menjadi string sebelum digabungkan dengan teks lainnya. Akhirnya, output yang dihasilkan adalah "my name is John Doe. I'm 23 years old".
+
+Jadi, dengan menjalankan source code ini, Anda akan melihat output yang mencetak informasi nama dan usia seperti yang ditunjukkan dalam komentar.\
+
+
+friends = ["Nolan", "Mary", "Abby", "Nolan", "Abby"]
+friends = list(set(friends))
+# hilangkan nama yang terduplikasi hanya dengan satu baris kode
+
+Source code tersebut menggunakan satu baris kode untuk menghilangkan duplikat dari daftar friends. Berikut adalah penjelasan dari kode tersebut:
+
+friends = ["Nolan", "Mary", "Abby", "Nolan", "Abby"]: Baris ini mendefinisikan variabel friends sebagai sebuah daftar (list) yang berisi beberapa nama teman. Beberapa nama teman memiliki duplikat di dalam daftar.
+
+friends = list(set(friends)): Baris ini merupakan satu baris kode yang menghilangkan nama-nama yang terduplikasi dari daftar friends.
+
+Fungsi set() digunakan untuk mengkonversi daftar friends menjadi himpunan (set), yang secara otomatis akan menghapus elemen yang terduplikasi.
+
+Kemudian, hasilnya dikonversi kembali menjadi daftar menggunakan fungsi list(), sehingga nama-nama unik yang tersisa disimpan kembali dalam variabel friends.
+
+Dengan menjalankan source code ini, setelah baris kode kedua dieksekusi, variabel friends akan berisi daftar yang hanya berisi nama-nama yang unik atau tidak terduplikasi. Dalam contoh ini, daftar friends akan menjadi ["Nolan", "Mary", "Abby"].
+
+
+
+
+
